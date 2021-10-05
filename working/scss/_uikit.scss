@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "futura-bold";
+    src: url("./fonts/Futura-Bold.eot");
+    src: url("./fonts/Futura-Bold.ttf");
+    src: url("./fonts/Futura-Bold.ttf") format("truetype"), url("./fonts/Futura-Bold.woff") format("woff"),
+        url("./fonts/Futura-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Futura-Book";
+    src: url("./fonts/Futura-Book.eot");
+    src: url("./fonts/Futura-Book.eot?#iefix") format("embedded-opentype"),
+        url("./fonts/Futura-Book.woff2") format("woff2"), url("./fonts/Futura-Book.woff") format("woff"),
+        url("./fonts/Futura-Book.ttf") format("truetype"), url("./fonts/Futura-Book.svg#Futura-Book") format("svg");
+}
+
+.page h1 {
+    font-size: 22px !important;
+    letter-spacing: 2px !important;
+    line-height: 72px !important;
+    color: #000;
+    font-family: futura-bold !important;
+}
+
+@media only screen and (max-width:600px){
+    .page h1 {
+        font-size: 20px !important;
+    }
+}
+
+.page h4 {
+    letter-spacing: 1px !important;
+    line-height: 72px !important;
+    font-family: futura-bold !important;
+}
+
+.page p {
+    font-size: 16px !important;
+    letter-spacing: 1px !important;
+    line-height: 30px !important;
+    color: #000;
+    font-family: Futura-Book !important;
+}
+
+// colors
+$red-wine: #730f13;
+$grey-clear: #e1e1e1;

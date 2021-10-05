@@ -1,0 +1,134 @@
+/*servicios-section*/
+
+.page-id-167 {
+    #rev_slider_7_1 {
+        margin-top: -140px;
+    }
+
+    .nuestro-equipo-name-slider {
+        letter-spacing: 1px !important;
+        color: #000 !important;
+        font-family: futura-bold !important;
+    }
+
+    img.tp-rs-img.rs-lazyload {
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+        &:hover {
+            -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(0%);
+        }
+    }
+}
+
+.hideService {
+    display: none;
+}
+
+@media only screen and (min-width: 700px) {
+    // .page-id-167 {
+    //     // .tp-leftarrow.tparrows.hesperiden.noSwipe {
+    //     //     display: none !important;
+    //     // }
+    // }
+}
+
+.servicio_info {
+    padding-left: 30px;
+    h2 {
+        font-size: 22px !important;
+        letter-spacing: 2px !important;
+        line-height: 72px !important;
+        color: #000;
+        font-family: futura-bold !important;
+    }
+}
+
+@media only screen and (min-width: 1226px) {
+    .servicio_info img {
+        width: 130px !important;
+    }
+
+    .img_move_left {
+        position: relative;
+        left: -25px;
+    }
+    .img_move_left_2 {
+        position: relative;
+        left: -48px;
+    }
+
+    .servicio_info .scale-with-grid {
+        position: relative;
+        top: -15px;
+    }
+
+    .servicio_info h2 {
+        margin-top: -21px;
+    }
+}
+
+@media only screen and (min-width:1300px) {
+    .img_move_left {
+        position: relative;
+        left: -44px;
+    }
+    .img_move_left_2 {
+        position: relative;
+        left: -90px;
+    }
+    
+}
+
+@media only screen and (min-width: 700px) and (max-width:1225px) {
+   
+
+    .servicio_info .scale-with-grid {
+        position: relative;
+        top: -15px;
+    }
+
+}
+
+.servicio_info p {
+    margin-top: -26px;
+}
+
+@media only screen and (max-width: 1260px) {
+    .page-id-167 {
+        //arrows
+        // #rev_slider_6_1_wrapper .hesperiden.tparrows.tp-rightarrow::before {
+        .hesperiden.tparrows.tp-rightarrow::before {
+            content: url("https://www.saumaarquitectos.com/wp-content/uploads/2021/09/arrow-right.png") !important;
+            // margin-right: -50px;
+        }
+
+        // #rev_slider_6_1_wrapper .hesperiden.tparrows.tp-leftarrow::before {
+        .hesperiden.tparrows.tp-leftarrow::before {
+            content: url("https://www.saumaarquitectos.com/wp-content/uploads/2021/09/arrow-left.png") !important;
+            // margin-left: -60px !important;
+        }
+    }
+}
+
+
+@media only screen and (min-width:700px) and (max-width:1050px) {
+    .servicio_info{
+        margin-top: -23px;
+    }   
+}
+
+@media only screen and (max-width:669px) {
+    .servicio_info {
+        padding-left: 0px;
+    }
+}
+
+
+
+// .servicio_info .column.column_image
+
+.servicio_info .column.column_image {
+    // display: block;
+    width: 25% !important;
+}

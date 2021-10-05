@@ -1,0 +1,92 @@
+/*nuestro-equipo-section*/
+
+.page-id-279 {
+    h4 {
+        font-size: 22px !important;
+        letter-spacing: 2px !important;
+        line-height: 72px;
+        color: #000;
+        font-family: futura-bold !important;
+    }
+    //paragraph
+    .integrante {
+        font-size: 16px !important;
+        letter-spacing: 1px !important;
+        line-height: 30px !important;
+        color: #000;
+        font-family: Futura-Book !important;
+        // img {
+        //     // max-width: 479px !important;
+        //     // text-align: center;
+        //     // margin: auto;
+        //     // display: block;
+        // }
+
+        div {
+            font-size: 16px !important;
+        }
+    }
+
+    .nuestro-equipo-name-slider {
+        letter-spacing: 1px !important;
+        color: #000 !important;
+        font-family: futura-bold !important;
+    }
+
+    img.tp-rs-img.rs-lazyload {
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+        &:hover {
+            -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(0%);
+        }
+    }
+
+    //using this class (hiddecollaborator) with custom.js in the section nuestro equipo
+    .hiddecollaborator {
+        display: none;
+    }
+
+    //arrows
+    // #rev_slider_6_1_wrapper .hesperiden.tparrows.tp-rightarrow::before {
+         .hesperiden.tparrows.tp-rightarrow::before {
+        content: url("https://www.saumaarquitectos.com/wp-content/uploads/2021/09/arrow-right.png") !important;
+        margin-right: -50px !important;
+    }
+
+    // #rev_slider_6_1_wrapper .hesperiden.tparrows.tp-leftarrow::before {
+         .hesperiden.tparrows.tp-leftarrow::before {
+        content: url("https://www.saumaarquitectos.com/wp-content/uploads/2021/09/arrow-left.png") !important;
+        margin-left: -60px !important;
+    }
+
+    #rev_slider_6_1 {
+        margin-top: -140px;
+    }
+}
+
+
+
+@media only screen and (min-width: 700px) and (max-width: 1050px) {
+    //just place in vertical position the div elements
+    .integrante_text_container {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .page-id-279 {
+        h4 {
+            line-height: 34px !important;
+        }
+    }
+}
+
+@media only screen and (min-width: 1051px) {
+    .page-id-279 {
+        .integrante_text_container {
+            margin-top: -26px;
+            padding-left: 30px;
+        }
+    }
+}

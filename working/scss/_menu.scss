@@ -1,0 +1,210 @@
+/*menu-section*/
+#Top_bar a.responsive-menu-toggle i {
+    font-size: 40px !important;
+}
+
+#Side_slide .menu_wrapper #menu ul li a {
+    // color: #000 !important;
+}
+
+#Side_slide {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+#Side_slide #menu .menu-item a {
+    font-family: "futura-bold" !important;
+    // color: #000;
+    text-transform: uppercase;
+}
+
+#Side_slide #menu .menu-item .sub-menu .menu-item a {
+    font-family: "Futura-Book" !important;
+    // color: #000;
+    text-transform: initial;
+}
+
+#body_overlay {
+    background: rgba(255, 255, 255, 0.96) !important;
+}
+
+#Side_slide .close-wrapper a.close i {
+    font-size: 22px;
+    line-height: 34px;
+    content: url(https://www.saumaarquitectos.com/wp-content/uploads/2021/09/times.png);
+    position: relative;
+    top: 25px;
+    width: 18px !important;
+    left: 10px;
+}
+
+#menu-menu-principal {
+    text-align: end !important;
+}
+
+.menu-toggle::after {
+    content: url(https://www.saumaarquitectos.com/wp-content/uploads/2021/09/plus.png);
+}
+
+#Top_bar a.responsive-menu-toggle {
+    content: url(https://www.saumaarquitectos.com/wp-content/uploads/2021/09/menubtn.png) !important;
+}
+
+@media only screen and (min-width: 700px) {
+    #Side_slide {
+        padding-right: 35px;
+        padding-top: 30px;
+    }
+}
+
+#Side_slide #menu .sub-menu .menu-item a {
+    padding: 0px 5px 10px 20px !important;
+}
+
+.facebook a {
+    content: url(https://www.saumaarquitectos.com/wp-content/uploads/2021/09/instagram-square.png);
+    &:hover {
+        content: url(https://www.saumaarquitectos.com/wp-content/uploads/2021/09/instagram-square1.png);
+    }
+}
+
+.linkedin a {
+    content: url(https://www.saumaarquitectos.com/wp-content/uploads/2021/09/facebook-square.png);
+    &:hover {
+        content: url(https://www.saumaarquitectos.com/wp-content/uploads/2021/09/facebook-square1.png);
+    }
+}
+
+.instagram a {
+    content: url(https://www.saumaarquitectos.com/wp-content/uploads/2021/09/linkedin1.png);
+    &:hover {
+        content: url(https://www.saumaarquitectos.com/wp-content/uploads/2021/09/linkedin2.png);
+    }
+}
+
+.custom a {
+    content: url(https://www.saumaarquitectos.com/wp-content/uploads/2021/09/waze1.png);
+    &:hover {
+        content: url(https://www.saumaarquitectos.com/wp-content/uploads/2021/09/waze2.png);
+    }
+}
+
+.social a {
+    width: 28px;
+}
+
+#menu-item-180 .menu-toggle {
+    width: 15px !important;
+    height: 15px !important;
+    opacity: 1 !important;
+}
+
+#menu-item-614 .menu-toggle {
+    width: 15px !important;
+    height: 15px !important;
+    opacity: 1 !important;
+}
+
+#Side_slide #menu ul li.submenu .menu-toggle {
+    right: 19px !important;
+    top: 11px !important;
+}
+
+@media only screen and (min-width: 600px) {
+    #Side_slide .menu_wrapper {
+        margin-top: 27px;
+    }
+}
+
+
+@media only screen and (min-width:700px) {
+    .responsive-menu-toggle {
+        margin-top: 3% !important;
+    }
+
+    #Top_bar.is-sticky .responsive-menu-toggle{
+        margin-top: -2% !important;
+    }
+}
+
+
+
+.icon.search {
+    content: url(https://www.saumaarquitectos.com/wp-content/uploads/2021/09/searchIcon.png);
+}
+
+.social {
+    position: relative;
+    top: 85px;
+}
+
+// .icon.search {
+//     position: relative;
+//     top: 295px;
+//     left: 60px;
+// }
+
+@media only screen and (max-width:700px) {
+    #Side_slide {
+        padding-top: 6px;
+    }
+    #Side_slide ul#menu-menu-principal {
+        margin-top: 18px;
+    }
+}
+
+
+ul#menu-menu-principal li:hover {
+    color: #721013 !important;
+}
+
+
+div#Side_slide {
+    display: flex;
+    flex-direction: column;
+}
+
+.close-wrapper {
+    order: 0;
+}
+
+.extras {
+    order: 2;
+}
+
+
+div#Side_slide a.icon.search {
+    position: relative;
+    left: 100px;
+    top: -73px;
+}
+
+
+div#Side_slide i.icon-search-fine {
+    display: none;
+}
+
+div#Side_slide ul.social {
+    position: relative;
+    left: 41px;
+}
+
+
+img.logo-mobile-sticky.scale-with-grid {
+    /* width: 10px !important; */
+    height: 42px;
+}
+
+
+
+#Side_slide #menu ul li.submenu .menu-toggle:after {
+   
+    // color: $red-wine !important;
+    font-size: 55px !important;
+    font-weight: 500 !important;
+    position: relative !important;
+    top: -14px !important;
+    left: -5px;
+}
+
+
+

@@ -1,0 +1,78 @@
+/*contacto-section*/
+.conten_contac {
+    .insta {
+        &:hover {
+            content: url(https://www.saumaarquitectos.com/wp-content/uploads/2021/09/instagram-square1.png);
+        }
+    }
+    .face {
+        &:hover {
+            content: url(https://www.saumaarquitectos.com/wp-content/uploads/2021/09/facebook-square1.png);
+        }
+    }
+    .link-in {
+        &:hover {
+            content: url(https://www.saumaarquitectos.com/wp-content/uploads/2021/09/linkedin2.png);
+        }
+    }
+    .thiswaze {
+        &:hover {
+            content: url(https://www.saumaarquitectos.com/wp-content/uploads/2021/09/waze2.png);
+        }
+    }
+    a.waze_cont {
+        position: relative;
+        left: 3px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+
+    .conten_contac {
+        margin-top: -64px;
+         p {
+            
+            letter-spacing: 1px !important;
+            line-height: 25px !important;
+            color: #000;
+            font-family: Futura-Book !important;
+        }
+    }
+
+
+}
+.mapa_up{
+    margin-top: -10px;
+    top: -37px;
+}
+
+
+@media screen and (max-width:500px) {
+    .conten_contac {
+        margin-top: 41px !important;
+    }
+}
+
+// .conten_contac {
+//     margin-top: 48px;
+// }
+
+p.tel_cont {
+    position: relative;
+    top: -17px;
+}
+
+@media only screen and (min-width:1024px){
+    .insta_info {
+        position: relative;
+        left: -55px;
+        top: -10px;
+    }
+    
+}
+
+@media screen and (min-width:700px) and (max-width:1023px){
+    .insta_info {
+        margin-top: 5px !important;
+    }    
+}

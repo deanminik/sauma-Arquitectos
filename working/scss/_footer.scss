@@ -1,0 +1,199 @@
+/*footer-section*/
+#Footer {
+    background-color: $grey-clear !important;
+    padding-top: 14px;
+    .container {
+        display: flex;
+    }
+    .column.one-fourth {
+        margin: 0 !important;
+    }
+    .widget {
+        margin: 0 !important;
+    }
+    .left_side {
+        font-size: 12px !important;
+        a {
+            text-decoration: none;
+            color: #000 !important;
+        }
+    }
+
+    .right_side_container {
+        display: flex;
+        .col_one {
+            a {
+                font-size: 12px;
+                letter-spacing: 1px;
+                font-family: futura-bold !important;
+                text-decoration: none;
+                color: #000 !important;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    .column.one-fourth {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 1245px) {
+    #Footer {
+        margin-bottom: -10px;
+        .col_one {
+            a {
+                margin: 0 9px;
+                font-size: 10px !important;
+            }
+        }
+        .col_two {
+            position: relative;
+            left: 28px;
+            top: 4px;
+            a {
+                margin: 0 2px;
+                font-size: 12px !important;
+            }
+        }
+        #block-2 {
+            .left_side {
+                margin: 0 0 0px !important;
+                position: relative;
+                top: 3px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    #Footer {
+        .container {
+            flex-direction: column;
+            text-align: center;
+        }
+        .right_side_container {
+            flex-direction: column;
+        }
+        .column.one-fourth {
+            width: 100%;
+        }
+        .col_two {
+            margin-top: 6px;
+            display: flex;
+            justify-content: center;
+            a {
+                margin: 0 8px;
+            }
+        }
+       
+        .left_side {
+            margin-bottom: 0;
+        }
+
+        .col_one a:nth-child(3) {
+            position: relative;
+            top: -13px;
+            // display: none;
+        }
+        .col_one a:nth-child(4) {
+            position: relative;
+            top: -13px;
+            display: none;
+        }
+        a.mapa {
+            position: relative;
+            top: -26px;
+        }
+
+        .container {
+            display: flex;
+            /* display: none !important; */
+            flex-direction: column-reverse !important;
+        }
+    }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1050px) {
+    #Footer {
+        .col_one {
+            a {
+                margin: 0 12px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #Footer {
+        .left_side {
+            line-height: 18px !important;
+            margin-bottom: 10px;
+        }
+
+        .right_side_container {
+            .col_one {
+                a {
+                    width: 100% !important;
+                    display: block;
+                }
+            }
+        }
+
+      
+    }
+}
+
+@media screen and (min-width:700px) {
+    #Footer {
+        .col_one {
+            display: flex;
+        }
+        .col_two {
+            display: flex;
+        }
+        .col_two a {
+            /* margin: 0 0px; */
+            padding: 0px 4px;
+        }
+    }
+    
+    
+    
+}
+
+@media only screen and (max-width:600px) {
+    // industrial 
+    .page-id-445 footer#Footer {
+        position: absolute;
+        bottom: -266px;
+    }
+}
+
+
+@media screen and (min-width: 700px) and ( max-width:1024px){
+    #Footer .col_one {
+        display: flex;
+        justify-content: center;
+    }
+    #Footer a.mapa {
+    
+        top: -0px !important;
+    }
+    #Footer .col_one a:nth-child(3) {
+   
+        top: -0px !important;
+    }
+    .col_two {
+        margin-bottom: -36px;
+    }
+}
+
+
+
+@media only screen and (min-width:1200px) {
+    .col_one a {
+        position: relative;
+        top: 4px;
+    }
+}

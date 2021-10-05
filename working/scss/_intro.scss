@@ -1,0 +1,67 @@
+/*intro-section*/
+
+.page-id-181 {
+    #Header {
+        display: none;
+    }
+}
+
+.page-id-181 {
+    #Footer {
+        display: none;
+    }
+}
+
+.page-id-181 {
+    .mcb-wrap-inner {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.intro_section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.page-id-181 {
+    .img_intro {
+        display: none;
+        padding-top: 0%;
+        img {
+            width: 55%;
+        }
+    }
+}
+
+.page-id-181 {
+    .img_intro_gif {
+        padding-top: 12%;
+        width: 545px !important;
+
+        img {
+            width: 55%;
+        }
+    }
+}
+
+a.button.btn_intro_entrar {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #000;
+    font-family: futura-bold;
+    text-align: center;
+    text-transform: uppercase;
+
+    &:hover {
+        background-image: url(https://www.saumaarquitectos.com/wp-content/uploads/2021/09/hover_entrar.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-y: center;
+    }
+}

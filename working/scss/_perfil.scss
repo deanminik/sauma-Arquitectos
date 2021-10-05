@@ -1,0 +1,74 @@
+/*perfil-section*/
+// slider
+.perfil_slider {
+    font-size: 30px !important;
+    letter-spacing: 2px !important;
+    line-height: 72px !important;
+    color: #000;
+    font-family: futura-bold !important;
+}
+
+h1.perfil_slider {
+    font-weight: 500;
+    font-size: 28px !important;
+    position: relative;
+}
+
+//ipads
+@media only screen and (min-width: 700px) and (max-width: 1023px) {
+    h1.perfil_slider {
+        margin-top: -60%;
+        margin-left: -10%;
+    }
+}
+//ipad prod
+@media only screen and (min-width: 1024px) and (max-width: 1270px) {
+    h1.perfil_slider {
+        margin-top: -138%;
+        margin-left: 3%;
+    }
+}
+
+//monitores
+@media only screen and (min-width: 1275px) and (max-width: 1349px) {
+    h1.perfil_slider {
+        margin-top: 135%;
+        margin-left: -93%;
+    }
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 1899px) {
+    h1.perfil_slider {
+        margin-top: 135%;
+        margin-left: -114%;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    h1.perfil_slider {
+        margin-left: -26%;
+        margin-top: 61%;
+    }
+}
+
+@media only screen and (min-width:1360px) and (max-width:1370px)  {
+    h1.perfil_slider {
+        margin-top: 135%;
+        margin-left: -207%;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    h1.perfil_slider {
+    
+        margin-top: 121% !important;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .page-id-576 div#Content {
+        padding-bottom: -8px !important;
+        margin-bottom: -62px;
+    }
+}

@@ -1,0 +1,40 @@
+/*publicaciones-secion*/
+.insta_info {
+    margin-top: 34px !important;
+    h5.publicaciones_2 {
+        font-size: 12px !important;
+        letter-spacing: 2px !important;
+
+        color: #000;
+        font-family: futura-bold !important;
+    }
+
+    h5.publicaciones_1 {
+        font-size: 26px !important;
+        letter-spacing: 1px !important;
+        font-weight: 100;
+        color: #000;
+        font-family: Futura-Book !important;
+    }
+}
+
+a.insta-gallery-button.follow {
+    background-color: #fff !important;
+    color: $red-wine !important;
+    text-transform: uppercase !important;
+    font-family: "futura-bold";
+    font-size: 18px !important;
+}
+
+.insta-gallery-list .insta-gallery-item .insta-gallery-image-wrap .insta-gallery-image-mask {
+
+    background-color: #808080 !important;
+}
+
+
+@media only screen and (max-width:600px) {
+    .column.mcb-column.mcb-item-zbhzz29rz.three-fifth.column_image img {
+        height: 100px;
+        width: 100px;
+    }
+}

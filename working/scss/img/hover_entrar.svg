@@ -1,0 +1,21 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133 21" width="133" height="21">
+	<title>fancy link betheme</title>
+	<style>
+		tspan { white-space:pre }
+		.txt0 { font-size: 20px;line-height: 30px;fill: #000000;font-weight: bold;font-family: "Futura" } 
+	</style>
+	<g id="fancy link betheme">
+		<g id="normal">
+		</g>
+		<g id="hover">
+			<text id="[" style="transform: matrix(1,0,0,1,2.5,15.5)" >
+				<tspan x="-4.57" y="0" class="txt0" dx="0 1" >[
+</tspan>
+			</text>
+			<text id="[ copy" style="transform: matrix(-1,0,0,-1,130.5,5.24)" >
+				<tspan x="-4.57" y="0" class="txt0" dx="0 1" >[
+</tspan>
+			</text>
+		</g>
+	</g>
+</svg>
